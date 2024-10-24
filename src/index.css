@@ -1,0 +1,47 @@
+
+
+.flex {
+    display: flex;
+    text-decoration: none;  
+  }
+  
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .gap-12 {
+    gap: 3rem; /* Adjust as needed */
+  }
+  
+  .my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-blue-400 {
+    color: #3b82f6; /* Tailwind's blue-400 color */
+  }
+  
+  .text-3xl {
+    font-size: 2rem; /* You can adjust the size */
+    line-height: 2.5rem; /* Adjust for better spacing */
+  }
+  
+  p {
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+
+  }
+  
+  p:hover {
+    color: #1d4ed8; /* Darker blue on hover */
+    
+  }
+ 
+.link {
+    text-decoration: none; /* Remove default underline */
+    color: #3b82f6; /* Adjust color as needed */
+    transition: text-decoration 0.3s ease; /* Smooth transition */
+  }
+
+  
